@@ -20,7 +20,7 @@ jobs:
       run: mv Demo.html home.html
       
     - name: Upload artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: file-artifact
         path: home.html
